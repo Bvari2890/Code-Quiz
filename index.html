@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div id="homepage">
+            <h1>Code Quiz!</h1>
+            <h2>Put Your Knowledge to the Test</h2>
+            <button id="play-btn">Play!</button>
+            <button id="homePageHighScore" onclick="('not yet created')">High Scores</button>
+        </div>
+
+        <div id="quiz">
+            <div id="timer">Time: </div>
+                <div id="questions">
+                    <p>Questions Paceholder</p>
+                </div>
+                    <button id="a" onclick="('a')">A</button>
+                    <button id="b" onclick="('b')">B</button>
+                    <button id="c" onclick="('c')">C</button>
+                    <button id="d" onclick="('d')">D</button>
+                <div id="outcome"></div>
+        </div>
+        <div id="endgame">
+            <div id="finalScore"></div>
+            <input type="text" size = "50" placeholder="Enter name here" name="name"/>
+            <button id="submit">Submit</button>
+        </div>
+        <div id="highScorePage">
+            <div id="highScoreTitle">
+                <h2>User Name</h2>
+                <h2>Score</h2>
+            </div>
+            <div id="highScoreName"></div>
+            <div id="highScoreScore"></div>
+        </div>
+        <div id="finalPageBtns">
+            <button id="replay" onclick="">Replay Quiz</button>
+            <button id="clearScore" onclick="">Clear Scores</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
